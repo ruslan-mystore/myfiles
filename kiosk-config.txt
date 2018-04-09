@@ -1,0 +1,24 @@
+connection=wifi
+dhcp=yes
+wifi_encryption=wpa
+wpa_password=tctlvguest
+ssid_name=TECHCODE-Guest
+browser=chrome
+touchscreen_calibration="AFO Co., Ltd. AFO TCM10Q-550 HID" "Evdev Axis Calibration" 32 -4 4078 41 4089
+client_id=automatic
+disable_firewall=yes
+homepage=https://rikushet-test.netlify.com?uid=2&sid=rikushet_tel-aviv_dizengof&password=rikushet_test
+browser_preferences=https://raw.githubusercontent.com/ruslan-mystore/myfiles/master/chrome-policies.txt
+hide_mouse=yes
+disable_navigation_bar=yes
+persistence=session
+password_manager=yes
+disable_private_mode=yes
+root_password=checkout
+kiosk_server=domain.com:443
+timezone=Asia/Tel_Aviv
+vnc_interactive=yes
+vnc_password=checkout
+disable_zoom_controls=yes
+additional_components=09-x11vnc.xzm uefi.zip 08-ssh.xzm 
+
