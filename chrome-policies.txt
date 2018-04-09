@@ -2,4 +2,4 @@
 "AudioCaptureAllowed": true,
 "AudioCaptureAllowedUrls": ["https://rikushet-test.netlify.com/"],
 "VideoCaptureAllowed": true,
-"VideoCaptureAllowedUrls": ["https://rikushet-test.netlify.com/"]],
+"VideoCaptureAllowedUrls": ["https://rikushet-test.netlify.com/"],
