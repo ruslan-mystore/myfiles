@@ -1,0 +1,5 @@
+// Allow accessing microphone and camera on specific websites without asking for a permission:
+"AudioCaptureAllowed": true,
+"AudioCaptureAllowedUrls": ["https://rikushet-test.netlify.com/"],
+"VideoCaptureAllowed": true,
+"VideoCaptureAllowedUrls": ["https://rikushet-test.netlify.com/"]],
