@@ -1,0 +1,23 @@
+{
+  "name": "myfiles333",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "atob": "^2.0.3",
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "sh -ac '. config/env.local; npm-run-all -p watch-css start-js && npm run build:local'",
+    "build": "sh -ac '. config/env.${REACT_APP_ENV}; npm run build-css && react-scripts build'",
+    "build:local": "REACT_APP_ENV=local npm run build",
+    "build:development": "REACT_APP_ENV=development npm run build",
+    "build:production": "REACT_APP_ENV=production npm run build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-plugin-babel": "^4.1.2"
+  }
+}
